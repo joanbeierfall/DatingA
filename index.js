@@ -20,11 +20,11 @@ const imageurl = "https://yourdomain.com/";
 
 const connection = mysql.createPool({
     connectionLimit : 100,
-    host: 'localhost',
+    host: 'https://65-108-1-122.cprapid.com',
     port: 3306,
-    user: 'database_username',
-    password: 'database_password',
-    database: 'database_name'
+    user: 'tempgmai_dating',
+    password: 'tempgmai_dating',
+    database: 'tempgmai_dating'
 });
 /*connection.connect((err) => {
     if (err) {
